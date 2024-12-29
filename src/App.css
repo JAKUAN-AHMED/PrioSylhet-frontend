@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Noto+Serif+Bengali:wght@100..900&display=swap');
+
+body {
+  font-family: 'Jost', sans-serif; /* Default font */
+}
+
+/* Apply Bangla font for content in the 'bn' language (Bangla) */
+body[lang='bn'], .bangla-text {
+  font-family: 'Noto Serif Bengali', serif;
+}
